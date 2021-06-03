@@ -1,3 +1,7 @@
+h3{
+    text-align: center;
+}
+
 div{
     padding: 0;
     margin: 5px;
@@ -7,6 +11,8 @@ button{
     margin: 15px;
     padding: 5px 10px;
     background-color: gold;
+    position: relative;
+    left: 50%;
 }
 
 button:active ~ div{
