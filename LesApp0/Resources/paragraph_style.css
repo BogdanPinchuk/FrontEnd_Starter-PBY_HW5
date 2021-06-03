@@ -1,0 +1,28 @@
+div{
+    padding: 0;
+    margin: 5px;
+}
+
+button{
+    margin: 15px;
+    padding: 5px 10px;
+    background-color: gold;
+}
+
+button:active ~ div{
+    width: 1200px;
+}
+
+p{
+    text-align-last: center;
+    font-size: 90px;
+    color: lime;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
